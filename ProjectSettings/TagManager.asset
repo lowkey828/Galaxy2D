@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Asteroid
+  - Destroy
+  - Item
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 807938301
+    locked: 0
+  - name: Laser
+    uniqueID: 1112442771
+    locked: 0
+  - name: Asteroid
+    uniqueID: 28925525
+    locked: 0
+  - name: Player
+    uniqueID: 1921173345
+    locked: 0
+  - name: Item
+    uniqueID: 3478982789
+    locked: 0
+  m_RenderingLayers:
+  - Default
