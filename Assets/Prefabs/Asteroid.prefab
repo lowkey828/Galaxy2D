@@ -190,5 +190,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 50
-  health: 5
+  health: 7
   itemPrefab: {fileID: 7300272075896383311, guid: f5d344bebcb4d7140b68efe6e4a5f74b, type: 3}

@@ -101,12 +101,12 @@ public class PlayerController : MonoBehaviour
         Rigidbody2D rbLaser = laser.GetComponent<Rigidbody2D>();
         rbLaser.linearVelocity = new Vector2(0, moveSpeedLaser);
 
-        GameObject laserLeft = Instantiate(laserPrefab, attackAreaLeft.position, Quaternion.identity);
+        GameObject laserLeft = Instantiate(laserPrefab, attackAreaLeft.position, Quaternion.Euler(0 ,0 , 11));
         Rigidbody2D rbLaserLeft = laserLeft.GetComponent<Rigidbody2D>();
-        rbLaserLeft.linearVelocity = new Vector2(-0.5f, moveSpeedLaser);
+        rbLaserLeft.linearVelocity = new Vector2(-1f, moveSpeedLaser);
 
-        GameObject laserRight = Instantiate(laserPrefab, attackAreaRight.position, Quaternion.identity);
+        GameObject laserRight = Instantiate(laserPrefab, attackAreaRight.position, Quaternion.Euler(0, 0, -11));
         Rigidbody2D rbLaserRight = laserRight.GetComponent<Rigidbody2D>();
-        rbLaserRight.linearVelocity = new Vector2(0.5f, moveSpeedLaser);
+        rbLaserRight.linearVelocity = new Vector2(1f, moveSpeedLaser);
     }
 }
